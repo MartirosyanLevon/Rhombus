@@ -10,17 +10,21 @@ namespace Romb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write your first digit:");
+            Console.WriteLine("If you want to draw rombus");
+            Console.Write("Write your first digit:");
+            Console.Write(" Height = ");
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Write your second digit:");
-            int y = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Write your second digit:");
+            Console.Write(" Width = ");
+            int l = Convert.ToInt32(Console.ReadLine());
             int z = 1;
+            int y = 0;
 
             for (int i = 0; i < (x + x + 1); i++)
             {
                 if (i < x)
                 {
-                    for (int j = 0; j < y; j++)
+                    for (int j = 0; j < (y = l); j++)
                     {
                         Console.Write(" ");
                     }
@@ -29,13 +33,13 @@ namespace Romb
                         Console.Write("*");
                     }
 
-                    y -= 1;
+                    l -= 1;
                     z += 2;
                     Console.WriteLine();
                 }
                 else
                 {
-                    for (int j = 0; j < y; j++)
+                    for (int j = 0; j < (y = l); j++)
                     {
                         Console.Write(" ");
                     }
@@ -44,7 +48,7 @@ namespace Romb
                         Console.Write("*");
                     }
 
-                    y += 1;
+                    l += 1;
                     z -= 2;
                     Console.WriteLine();
 

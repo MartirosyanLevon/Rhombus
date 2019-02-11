@@ -5,3 +5,10 @@ C:\Users\mrlma\source\repos\Romb\Romb\obj\Debug\Romb.csprojAssemblyReference.cac
 C:\Users\mrlma\source\repos\Romb\Romb\obj\Debug\Romb.csproj.CoreCompileInputs.cache
 C:\Users\mrlma\source\repos\Romb\Romb\obj\Debug\Romb.exe
 C:\Users\mrlma\source\repos\Romb\Romb\obj\Debug\Romb.pdb
+C:\git\Romb\Romb\bin\Debug\Romb.exe.config
+C:\git\Romb\Romb\bin\Debug\Romb.exe
+C:\git\Romb\Romb\bin\Debug\Romb.pdb
+C:\git\Romb\Romb\obj\Debug\Romb.csprojAssemblyReference.cache
+C:\git\Romb\Romb\obj\Debug\Romb.csproj.CoreCompileInputs.cache
+C:\git\Romb\Romb\obj\Debug\Romb.exe
+C:\git\Romb\Romb\obj\Debug\Romb.pdb
